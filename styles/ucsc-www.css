@@ -1,0 +1,55 @@
+/* @override 
+	http://dl.dropbox.com/u/229696/ucsc/styles/ucsc-www.css */
+
+
+/*
+	Utility navigation should float to the right
+	and land next to the search box.
+*/
+	#utility-nav {
+		float: right;
+		margin-right:18px;
+		}
+		
+/*
+	Search no longer needs it's own distinct margins
+*/
+	#search {
+		margin-bottom:0;
+		margin-right: 18px;
+		float: right;
+	}
+
+/*
+	Logo in the home environment is different
+*/		
+	#logo { 
+		background:url(http://static.ucsc.edu/images/ucsc_logo.gif) no-repeat top left;
+		display:inline;
+		float:left;
+		height:72px;
+		line-height:1px;
+		margin:0;
+		overflow:hidden;
+		padding:0;
+		text-indent:-900em;
+		width:261px;
+		border:none;
+		}
+
+
+/*
+	Main navigation is larger in the home environment.
+	These styles adjust the nav item width.
+	- The last <li> is wider than the rest.
+*/
+	.home #main-nav li {
+		width:13.3%;
+		}
+	
+	.home #main-nav li:last-child,
+	.home #main-nav li.last {
+		width:18.2%;
+		}
+
+
