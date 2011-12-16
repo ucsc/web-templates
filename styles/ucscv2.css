@@ -357,8 +357,7 @@ table { border-collapse:collapse;border-spacing:0; }
 		margin: 0 0 1em 0;
 		}
 	
-	
-	footer { 
+	#footer, footer { 
 		letter-spacing:0.5px;
 		color:#5d5c5b;
 		text-transform:uppercase;
@@ -368,7 +367,7 @@ table { border-collapse:collapse;border-spacing:0; }
 		font-size:9px;
 		}
 	
-	footer a { 
+	#footer a, footer a { 
 		font-size:9px;
 		}
 
@@ -967,12 +966,6 @@ table { border-collapse:collapse;border-spacing:0; }
 }
 
 
-
-
-
-
-
-
 /**
 *	Footer styles
 */
@@ -988,10 +981,11 @@ table { border-collapse:collapse;border-spacing:0; }
 #footer-links li { 
 	float:left;
 	list-style:none;
+	background-image:none;
 	}
 
 /* Homepage footer social media links */
-footer #campus-info { 
+#footer #campus-info, footer #campus-info { 
 	border:none;
 	border-right:#dedcd1 3px solid;
 	margin:0;
@@ -1000,16 +994,16 @@ footer #campus-info {
 	line-height: 1.6em;
 	}
 
-footer .links {
+#footer .links, footer .links {
 	float: right;
 }
 	
-footer .social-media {
+#footer .social-media, footer .social-media {
 	float: left;
 	margin:1.7em 0 0 0;
 	}
 		
-footer .social-media a { 
+#footer .social-media a, footer .social-media a { 
 	display:inline-block;
 	padding:0;
 	width:24px;
@@ -1019,8 +1013,11 @@ footer .social-media a {
 	margin:-12px 4px 0px 0px;
 	}
 	
-footer .social-media a img { position:absolute; right:0px; }
+#footer .social-media a img, footer .social-media a img { position:absolute; right:0px; }
+
+#footer .social-media a:focus img,
 footer .social-media a:focus img,
+#footer .social-media a:hover img,
 footer .social-media a:hover img { right:-24px; }	
 	
 	
